@@ -1,0 +1,62 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #383b3e;
+    color: #dfe6ec;
+    font-family: Nova Square, 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 3em;
+    border-bottom: white 1px solid;
+    height: 7vh;
+}
+
+header img{
+    position: absolute;
+    width: 3rem;
+    right: 0;
+    top: 6px;
+}
+
+.button{
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    font-family: Nova Square;
+    font-size: larger;
+    border-radius: 10%;
+    border: none;
+    height: 50vh;
+    width: 25em;
+    background: #3C4146;
+    color: #dfe6ec;
+}
+
+
+a{
+    text-decoration: none;
+    color: #8599aa;
+}
+article{
+    width: 80%;
+    margin: 10%;
+    text-align:center;
+    font-size: x-large;
+}
+
+
+video, .piou{
+    width: 50vh;
+}
